@@ -1,0 +1,43 @@
+npm install --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/react-fontawesome
+npm install @mui/material @mui/icons-material
+
+
+https://www.figma.com/file/yNWvXvjZC0t8d9yBOpeEPy/Garden?type=design&node-id=4743-989&mode=design&t=bZrHg63ejohvlUfe-0 //исходный макет
+https://www.maps.ie/create-google-map/  //добавление гугл карты
+
+https://skilldesk.starta.university/lesson?filters436934284=id__eq__reciBGZy5eVBOAq2e&filters469453959=id__eq__reciBGZy5eVBOAq2e   пагинация,урок сб консультации 06/05/2023
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+https://giphy.com/stories/magical-mischief-04b86a80-50cd //гивки ГП
+
+
+https://codesandbox.io/s/react-credit-card-3pw31?file=/src/App.js:0-3727 //платежная карта
+
+- дописать проверку в редьюсере для сортировки +++++++++
+- убрать кнопку фильтрации и повесить на импуты клики++++++++++
+- доделать модульное окно  именно роутинг или юзЛокейшн++++++++++
+-прикрутить оплату картой
+- добавить какие-то маленькие компоненты из материа юай
+-доразбираться с рейтингом при желании_реализация частично закрашенных звезд
+-почитать про массив комментов с коментами каждого клиента/не в проекте/
+-доделать линки:в футере в адресе,на хом пейдж кнопкам линки добавить++++++++++++++
+-на сраничках со скидкой и пр по кат добавить компонент фильтрации и сортировки+++++++++++++++
+-дописать второй пост запрос sale/send ++++++++++++++++++++
+-доделать пагинатор чтобы не отображалось ++++++++++++++
+
+-хлебные крошки,нав панель из материал юай
+
+
+-доделать медиазапросы
+- поменять стили.добавить цвета через вар и стили тоже,размеры текстов 
+- доделать медиазапросы и сделать на хомПейдж бургер
+
+-поменять фильтрацию
+-ПОСТАРАТЬСЯ УСПЕТЬ ОБЪЕДЕНИТЬ РЕДЬЮСЕРЫ ПРОДУКТС И ПРОДУКТС БАЙ КАТ
+
+
+
+

@@ -1,0 +1,65 @@
+.contacts_inner{
+    margin: 50px;
+}
+
+
+.wrapper {
+  
+    display: flex;
+  
+    gap: 160px;
+  }
+  
+  .phone_number {
+    font-size: 70px;
+    margin-bottom: 25px;
+    font-weight: 600;
+     white-space: nowrap;
+     color: white;
+  }
+  .title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+
+  .link {
+    font-size:40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .social {
+    display: flex;
+    gap: 70px;
+    text-align: center;
+    font-size: 15px;
+    font-weight:600;
+  }
+
+  .address_p1 {
+    font-size: 18px;
+    margin-top: 20px;
+  
+  }
+  
+  .address_p2 {
+    font-size: 24px;
+    font-weight: 600;
+   
+  }
+
+
+
+  
+
+  
+ 
+  
+  @media (max-width:1080px) {
+    .contacts_inner,.wrapper,.address{
+     display: flex;
+     flex-direction: column;
+    }
+  }
