@@ -1,5 +1,8 @@
 
-const base_url = "https://be-deploy.onrender.com";  //основная ссылка
+const base_url = "https://backend-5nbe.onrender.com";  //основная ссылка
+
+
+
 const send_order_url = base_url + '/order/send' //заказ
 const send_sale_url = base_url + '/order/send'  //скидка
 

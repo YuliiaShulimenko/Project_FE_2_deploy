@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { deleteFromFavouriteAction } from '../../store/reducers/liked_reducer';
 import s from "./FavorietsItem.module.css"
 function FavorietsItem({image,id,title,price}) {
-  const url = 'https://be-deploy.onrender.com';
+  const url = 'https://backend-5nbe.onrender.comm';
   
   const dispatch = useDispatch();
   return (

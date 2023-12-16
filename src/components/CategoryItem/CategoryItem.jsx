@@ -7,7 +7,7 @@ function CategoryItem({id,title,image}) {
     <Link to={`/categories/${id}`} className={s.links}>
     <div className={s.main}>
        <div className={s.img_box}>
-        <img src={`https://be-deploy.onrender.com${image}`} alt={title} className={s.img}/>
+        <img src={`https://backend-5nbe.onrender.com${image}`} alt={title} className={s.img}/>
         </div>
         <p> {title}</p>
     </div>

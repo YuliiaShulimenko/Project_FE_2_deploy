@@ -5,7 +5,7 @@ import { productsByCategoryAction} from "../store/reducers/catogory_prod_reducer
 
 
 export const getAllCategories = (callback) => {
-    fetch('https://be-deploy.onrender.com/categories/all')
+    fetch('https://backend-5nbe.onrender.com/categories/all')
       .then(res => res.json())
       .then(json => callback(categAllAction(json)))
   }
@@ -16,7 +16,7 @@ export const getAllCategories = (callback) => {
 
   export const getProdByCateg = id => {
     return dispatch=>{
-    fetch(`https://be-deploy.onrender.com/categories/${id}`)
+    fetch(`https://backend-5nbe.onrender.com/categories/${id}`)
       .then(res => res.json())
       .then(json => dispatch(productsByCategoryAction(json))  )
   }}

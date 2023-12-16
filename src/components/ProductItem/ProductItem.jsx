@@ -59,7 +59,7 @@ export default function ProductItem({ product }) {
       <Link to={`/products/${id}`}>
         <div className={s.product_image_wrapper}>
           <img
-            src={`https://be-deploy.onrender.com${image}`}
+            src={`https://backend-5nbe.onrender.com${image}`}
             alt={title}
           />
         </div>

@@ -11,7 +11,7 @@ import { addToCartAction } from "../../store/reducers/cart_reducer";
 function ProductItemPage() {
   const { id_prod } = useParams();
   const dispatch = useDispatch();
-  const base_url = "https://be-deploy.onrender.com";
+  const base_url = "https://backend-5nbe.onrender.com";
   const [clicked, setClicked] = useState(false);
   useEffect(() => dispatch(getProduct(id_prod)), []);
   const product = useSelector((state) => state.oneProduct);

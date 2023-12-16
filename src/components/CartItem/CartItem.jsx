@@ -12,7 +12,7 @@ function CartItem({ id, title, price, count, discont_price, image }) {
   return (
     <div className={s.cart_single}>
       <img
-        src={`https://be-deploy.onrender.com${image}`}
+        src={`https://backend-5nbe.onrender.com${image}`}
         alt={title}
         className={s.cart_img}
       />
